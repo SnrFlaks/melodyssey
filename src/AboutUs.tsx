@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+import "./AboutUs.css";
 
 const AboutUs = () => {
   const navigate = useNavigate();
@@ -10,11 +10,13 @@ const AboutUs = () => {
 
   return (
     <div className="about-us">
-      <div className="title-container" onClick={handleLogoClick}>
-        <img src="/logo.png" alt="logo" className="logo" />
-        <h1 className="title">Melodyssey</h1>
+      <div className="header-container">
+        <div className="title-container" onClick={handleLogoClick}>
+          <img src="/logo.png" alt="logo" className="logo" />
+          <h1 className="title">Melodyssey</h1>
+        </div>
+        <h1>Про нас</h1>
       </div>
-      <h1>Про нас</h1>
       <p className="content">
         Melodyssey - це музичний стрімінговий сервіс, що дозволяє насолоджуватися музикою
         використовуючи вбудовані елементи Spotify. Тут ви можете ознайомитися з командою
