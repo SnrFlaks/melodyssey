@@ -81,34 +81,3 @@
     width: 100%;
   }
 }
-
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.title-container {
-  display: flex;
-  align-items: center;
-  height: 2.5em;
-}
-
-.logo {
-  height: 2.5em;
-  margin-right: 8px;
-}
-
-.title {
-  color: #f0f0f0;
-  height: 2.5em;
-  line-height: 2.5em;
-}
-
-.info-btn {
-  justify-content: flex-end;
-}
-
-.info-icon {
-  color: #f0f0f0;
-}

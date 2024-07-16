@@ -1,9 +1,10 @@
 :root {
   font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
 
   color: #f0f0f0;
-  background: #1b1b1b;
+  background: #161616;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
