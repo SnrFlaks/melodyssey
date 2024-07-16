@@ -73,3 +73,11 @@
   width: 50%;
   border-radius: 12px;
 }
+
+@media (max-width: 512px) {
+  .app-container,
+  .input,
+  .player iframe {
+    width: 100%;
+  }
+}
