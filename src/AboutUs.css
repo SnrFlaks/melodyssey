@@ -2,7 +2,10 @@
   display: flex;
   width: 80%;
   flex-direction: column;
-  justify-content: center;
+}
+
+.header-container {
+  margin-top: 20px;
 }
 
 .title-container {
@@ -10,6 +13,7 @@
   align-items: center;
   height: 2.5em;
   cursor: pointer;
+  justify-content: center;
 }
 
 .logo {
@@ -39,6 +43,7 @@
 
 .github-icon {
   width: 28px;
+  filter: invert(100%);
 }
 
 .info {
