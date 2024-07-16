@@ -54,3 +54,9 @@
 .description {
   margin: 0;
 }
+
+@media (max-width: 512px) {
+  .about-us {
+    width: 100%;
+  }
+}
