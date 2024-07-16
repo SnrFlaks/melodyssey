@@ -1,0 +1,56 @@
+.about-us {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  height: 2.5em;
+  cursor: pointer;
+}
+
+.logo {
+  height: 2.5em;
+  margin-right: 8px;
+}
+
+.title {
+  color: #f0f0f0;
+  height: 2.5em;
+  line-height: 2.5em;
+}
+
+.content {
+  margin: 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile a {
+  margin-left: 10px;
+}
+
+.github-icon {
+  width: 28px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h2 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.description {
+  margin: 0;
+}
